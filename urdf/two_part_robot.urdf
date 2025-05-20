@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<robot name="ia_robot">
+
+  <!-- A “world” frame at the ground plane -->
+  <link name="world"/>
+
+  <!-- Fixed joint: place base_link on the ground -->
+  <joint name="world_to_base" type="fixed">
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <parent link="world"/>
+    <child link="base_link"/>
+  </joint>
+
+  <!-- Base link -->
+  <link name="base_link">
+    <!-- Base mesh at its natural origin (sits on ground) -->
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://ia_robot/meshes/base.stl"/>
+      </geometry>
+      <material name="Gray"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://ia_robot/meshes/base.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="1.0"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia
+        ixx="0.01" ixy="0.0" ixz="0.0"
+        iyy="0.01" iyz="0.0"
+        izz="0.01"/>
+    </inertial>
+
+    <!-- DEBUG: hinge marker at 0.8 m above ground -->
+    <visual>
+      <origin xyz="0 0 0.8" rpy="1.5708 0 0"/>
+      <geometry>
+        <cylinder length="0.1" radius="0.01"/>
+      </geometry>
+      <material name="JointMarker"/>
+    </visual>
+  </link>
+
+  <!-- Chest link -->
+  <link name="chest_link">
+    <!-- 
+      Offset the chest mesh down by 0.8 m so that,
+      when the joint lifts the chest_link frame to z=0.8,
+      the mesh appears in its original position.
+    -->
+    <visual>
+      <origin xyz="0 0 -0.8" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://ia_robot/meshes/chest.stl"/>
+      </geometry>
+      <material name="Blue"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 -0.8" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://ia_robot/meshes/chest.stl"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <mass value="0.5"/>
+      <origin xyz="0 0 -0.8" rpy="0 0 0"/>
+      <inertia
+        ixx="0.005" ixy="0.0" ixz="0.0"
+        iyy="0.005" iyz="0.0"
+        izz="0.005"/>
+    </inertial>
+  </link>
+
+  <!-- Revolute joint at 0.8 m above ground -->
+  <joint name="base_to_chest_joint" type="revolute">
+    <origin xyz="0 0 0.8" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="chest_link"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="5.0" velocity="1.0" lower="-1.57" upper="1.57"/>
+  </joint>
+
+  <!-- Material for the debug cylinder -->
+  <material name="JointMarker">
+    <color rgba="1 0 0 1"/>
+  </material>
+</robot>
