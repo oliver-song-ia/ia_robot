@@ -8,17 +8,17 @@
     name="base_link">
     <inertial>
       <origin
-        xyz="0.044765 0.00022264 0.80875"
+        xyz="0.037909 0.00021539 0.8026"
         rpy="0 0 0" />
       <mass
-        value="40.824" />
+        value="42.189" />
       <inertia
-        ixx="0.60291"
-        ixy="-2.6768E-07"
-        ixz="0.0089409"
-        iyy="0.38319"
-        iyz="-6.5869E-06"
-        izz="0.40508" />
+        ixx="0.60924"
+        ixy="-1.347E-07"
+        ixz="0.0040799"
+        iyy="0.39675"
+        iyz="-6.3541E-06"
+        izz="0.41271" />
     </inertial>
     <visual>
       <origin
@@ -26,7 +26,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/base_link.stl" />
+          filename="package://ia_robot/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -40,7 +40,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/base_link.stl" />
+          filename="package://ia_robot/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -82,7 +82,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/leftbackorient.stl" />
+          filename="package://ia_robot/meshes/leftbackorient.STL" />
       </geometry>
       <material
         name="">
@@ -96,7 +96,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/leftbackorient.stl" />
+          filename="package://ia_robot/meshes/leftbackorient.STL" />
       </geometry>
     </collision>
   </link>
@@ -123,13 +123,13 @@
         xyz="0 0 -0.00020767"
         rpy="0 0 0" />
       <mass
-        value="5" />
+        value="3.6182" />
       <inertia
         ixx="0.0065597"
-        ixy="7.8043E-20"
+        ixy="7.8927E-20"
         ixz="3.0493E-19"
         iyy="0.0065597"
-        iyz="-3.3064E-19"
+        iyz="-3.7641E-19"
         izz="0.0096608" />
     </inertial>
     <visual>
@@ -138,7 +138,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/leftbackwheel.stl" />
+          filename="package://ia_robot/meshes/leftbackwheel.STL" />
       </geometry>
       <material
         name="">
@@ -152,7 +152,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/leftbackwheel.stl" />
+          filename="package://ia_robot/meshes/leftbackwheel.STL" />
       </geometry>
     </collision>
   </link>
@@ -178,7 +178,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/Rightbackorient.stl" />
+          filename="package://ia_robot/meshes/Rightbackorient.STL" />
       </geometry>
       <material
         name="">
@@ -192,7 +192,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/Rightbackorient.stl" />
+          filename="package://ia_robot/meshes/Rightbackorient.STL" />
       </geometry>
     </collision>
   </link>
@@ -216,17 +216,17 @@
     name="Rightbackwheel">
     <inertial>
       <origin
-        xyz="-1.6735E-05 0 -0.000207"
+        xyz="-1.67345419225806E-05 1.11022302462516E-16 -0.000206996303198315"
         rpy="0 0 0" />
       <mass
-        value="5" />
+        value="3.61818023273865" />
       <inertia
-        ixx="0.0065799"
-        ixy="7.434E-20"
-        ixz="0.00024907"
-        iyy="0.0065597"
-        iyz="-3.3268E-19"
-        izz="0.0096406" />
+        ixx="0.00657987024245532"
+        ixy="7.49384900018109E-20"
+        ixz="0.000249074423068998"
+        iyy="0.00655966618652465"
+        iyz="-3.63354164127521E-19"
+        izz="0.0096406359768352" />
     </inertial>
     <visual>
       <origin
@@ -234,12 +234,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/Rightbackwheel.stl" />
+          filename="package://ia_robot/meshes/Rightbackwheel.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.89804 0.91765 0.92941 1" />
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
       </material>
     </visual>
     <collision>
@@ -248,7 +248,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/Rightbackwheel.stl" />
+          filename="package://ia_robot/meshes/Rightbackwheel.STL" />
       </geometry>
     </collision>
   </link>
@@ -256,14 +256,14 @@
     name="Rightbackwheel-1"
     type="continuous">
     <origin
-      xyz="-0.00016116 0.0019935 -0.11"
-      rpy="1.5708 0 0" />
+      xyz="-0.000161163470126346 0.00199349600849796 -0.11"
+      rpy="1.5707963267949 0 0" />
     <parent
       link="Rightbackorient" />
     <child
       link="Rightbackwheel" />
     <axis
-      xyz="-0.080582 0 -0.99675" />
+      xyz="-0.08058173506303 0 -0.996748004248933" />
     <limit
       effort="50"
       velocity="0" />
@@ -272,17 +272,17 @@
     name="LeftFrontWheelOrient2">
     <inertial>
       <origin
-        xyz="-0.11285 0.0035657 0.013976"
+        xyz="-0.11285418489353 0.00356568192950379 0.0139762389318379"
         rpy="0 0 0" />
       <mass
-        value="1" />
+        value="0.427167332080997" />
       <inertia
-        ixx="0.00041852"
-        ixy="4.8985E-05"
-        ixz="4.2747E-05"
-        iyy="0.0019024"
-        iyz="-2.3931E-07"
-        izz="0.0021124" />
+        ixx="0.000418522032180055"
+        ixy="4.89846927753665E-05"
+        ixz="4.27468579690659E-05"
+        iyy="0.00190242881630566"
+        iyz="-2.39309753871588E-07"
+        izz="0.00211243261005077" />
     </inertial>
     <visual>
       <origin
@@ -290,12 +290,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/LeftFrontWheelOrient2.stl" />
+          filename="package://ia_robot/meshes/LeftFrontWheelOrient2.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.75294 0.75294 0.75294 1" />
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
       </material>
     </visual>
     <collision>
@@ -304,7 +304,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/LeftFrontWheelOrient2.stl" />
+          filename="package://ia_robot/meshes/LeftFrontWheelOrient2.STL" />
       </geometry>
     </collision>
   </link>
@@ -328,17 +328,17 @@
     name="LeftFrontWheelOrient1">
     <inertial>
       <origin
-        xyz="-0.00094851 0.034324 -0.028302"
+        xyz="-0.000948507831906586 0.0343239444320287 -0.0283016270647419"
         rpy="0 0 0" />
       <mass
-        value="0.21206" />
+        value="0.212057188740176" />
       <inertia
-        ixx="0.00050185"
-        ixy="1.4867E-06"
-        ixz="-3.687E-06"
-        iyy="0.0004481"
-        iyz="0.00013342"
-        izz="0.00041211" />
+        ixx="0.000501854273498574"
+        ixy="1.48669107184792E-06"
+        ixz="-3.687019665672E-06"
+        iyy="0.000448096442339725"
+        iyz="0.000133424417808254"
+        izz="0.000412109578902224" />
     </inertial>
     <visual>
       <origin
@@ -346,12 +346,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/LeftFrontWheelOrient1.stl" />
+          filename="package://ia_robot/meshes/LeftFrontWheelOrient1.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.89804 0.91765 0.92941 1" />
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
       </material>
     </visual>
     <collision>
@@ -360,7 +360,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/LeftFrontWheelOrient1.stl" />
+          filename="package://ia_robot/meshes/LeftFrontWheelOrient1.STL" />
       </geometry>
     </collision>
   </link>
@@ -368,7 +368,7 @@
     name="LeftFrontWheelOrient1-1"
     type="continuous">
     <origin
-      xyz="-0.17991 0.0058386 -0.0146"
+      xyz="-0.179905283136192 0.00583858713100255 -0.0146000000000007"
       rpy="0 0 0" />
     <parent
       link="LeftFrontWheelOrient2" />
@@ -384,17 +384,17 @@
     name="LeftFrontwheel">
     <inertial>
       <origin
-        xyz="0 0 -0.00020767"
+        xyz="1.11022302462516E-16 1.11022302462516E-16 -0.000207671650523461"
         rpy="0 0 0" />
       <mass
-        value="5" />
+        value="3.61818023273865" />
       <inertia
-        ixx="0.0065597"
-        ixy="-1.3506E-08"
-        ixz="8.267E-19"
-        iyy="0.0065597"
-        iyz="-8.1572E-19"
-        izz="0.0096608" />
+        ixx="0.00655973110012054"
+        ixy="-1.3505572451808E-08"
+        ixz="8.40256683676266E-19"
+        iyy="0.00655966899642117"
+        iyz="-8.51314352824881E-19"
+        izz="0.00966077230927346" />
     </inertial>
     <visual>
       <origin
@@ -402,12 +402,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/LeftFrontwheel.stl" />
+          filename="package://ia_robot/meshes/LeftFrontwheel.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.89804 0.91765 0.92941 1" />
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
       </material>
     </visual>
     <collision>
@@ -416,7 +416,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/LeftFrontwheel.stl" />
+          filename="package://ia_robot/meshes/LeftFrontwheel.STL" />
       </geometry>
     </collision>
   </link>
@@ -424,8 +424,8 @@
     name="LeftFrontwheel-1"
     type="continuous">
     <origin
-      xyz="-5.5247E-05 0.0019992 -0.11"
-      rpy="1.5708 0 0.027627" />
+      xyz="-5.52466221374059E-05 0.00199923680706893 -0.11"
+      rpy="1.5707963267949 0 0.0276268252558954" />
     <parent
       link="LeftFrontWheelOrient1" />
     <child
@@ -440,17 +440,17 @@
     name="RightFrontWheelOrient2">
     <inertial>
       <origin
-        xyz="-0.11291 0.00016905 0.013976"
+        xyz="-0.112910374002102 0.00016905120845867 0.0139762389318376"
         rpy="0 0 0" />
       <mass
-        value="1" />
+        value="0.427167332080998" />
       <inertia
-        ixx="0.00041692"
-        ixy="4.2755E-06"
-        ixz="4.2735E-05"
-        iyy="0.001904"
-        iyz="1.0468E-06"
-        izz="0.0021124" />
+        ixx="0.000416919067382263"
+        ixy="4.27554581620662E-06"
+        ixz="4.27347098463978E-05"
+        iyy="0.00190403178110341"
+        iyz="1.04676154423375E-06"
+        izz="0.00211243261005077" />
     </inertial>
     <visual>
       <origin
@@ -458,12 +458,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/RightFrontWheelOrient2.stl" />
+          filename="package://ia_robot/meshes/RightFrontWheelOrient2.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.75294 0.75294 0.75294 1" />
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
       </material>
     </visual>
     <collision>
@@ -472,7 +472,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/RightFrontWheelOrient2.stl" />
+          filename="package://ia_robot/meshes/RightFrontWheelOrient2.STL" />
       </geometry>
     </collision>
   </link>
@@ -496,17 +496,17 @@
     name="RightFrontWheelOrient01">
     <inertial>
       <origin
-        xyz="-0.0018211 0.034289 -0.028302"
+        xyz="-0.00182113120158134 0.0342887189825656 -0.0283016221542728"
         rpy="0 0 0" />
       <mass
-        value="0.21206" />
+        value="0.212057174883898" />
       <inertia
-        ixx="0.00050174"
-        ixy="2.8515E-06"
-        ixz="-7.0791E-06"
-        iyy="0.00044821"
-        iyz="0.00013329"
-        izz="0.00041211" />
+        ixx="0.000501743833498989"
+        ixy="2.8515022611008E-06"
+        ixz="-7.07907323328318E-06"
+        iyy="0.000448206722575077"
+        iyz="0.000133287481761764"
+        izz="0.000412109562839574" />
     </inertial>
     <visual>
       <origin
@@ -514,12 +514,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/RightFrontWheelOrient01.stl" />
+          filename="package://ia_robot/meshes/RightFrontWheelOrient01.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.89804 0.91765 0.92941 1" />
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
       </material>
     </visual>
     <collision>
@@ -528,7 +528,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/RightFrontWheelOrient01.stl" />
+          filename="package://ia_robot/meshes/RightFrontWheelOrient01.STL" />
       </geometry>
     </collision>
   </link>
@@ -552,17 +552,17 @@
     name="RightFrontWheelOrient1">
     <inertial>
       <origin
-        xyz="-0.00011709 0.0022046 -0.11"
+        xyz="0 0 -0.000207671650523433"
         rpy="0 0 0" />
       <mass
-        value="5" />
+        value="3.61818023273865" />
       <inertia
-        ixx="0.0065685"
-        ixy="-0.00016424"
-        ixz="-1.3487E-08"
-        iyy="0.009652"
-        iyz="-7.1629E-10"
-        izz="0.0065597" />
+        ixx="0.00655973110012055"
+        ixy="-1.35055724514069E-08"
+        ixz="-7.58941520739853E-19"
+        iyy="0.00655966899642118"
+        iyz="-1.72204598307509E-20"
+        izz="0.00966077230927346" />
     </inertial>
     <visual>
       <origin
@@ -570,12 +570,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/RightFrontWheelOrient1.stl" />
+          filename="package://ia_robot/meshes/RightFrontWheelOrient1.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.89804 0.91765 0.92941 1" />
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
       </material>
     </visual>
     <collision>
@@ -584,16 +584,16 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/RightFrontWheelOrient1.stl" />
+          filename="package://ia_robot/meshes/RightFrontWheelOrient1.STL" />
       </geometry>
     </collision>
   </link>
   <joint
-    name="RightFrontWheelOrient1-1"
+    name="RightFrontWheel"
     type="continuous">
     <origin
-      xyz="0 0 0"
-      rpy="0 0 0" />
+      xyz="-0.00010607 0.0019972 -0.11"
+      rpy="1.5708 0 0.053062" />
     <parent
       link="RightFrontWheelOrient01" />
     <child
@@ -608,17 +608,17 @@
     name="LeftARM1">
     <inertial>
       <origin
-        xyz="0.079625 0.031698 0.02246"
+        xyz="0.0857028873433471 -7.9505648153122E-05 0.0224604601278706"
         rpy="0 0 0" />
       <mass
-        value="1.822" />
+        value="1.82195171111395" />
       <inertia
-        ixx="0.0057796"
-        ixy="-0.0020214"
-        ixz="-0.0018525"
-        iyy="0.010053"
-        iyz="-0.00073747"
-        izz="0.011595" />
+        ixx="0.00497485901808976"
+        ixy="5.45710505076505E-06"
+        ixz="-0.00199391908800169"
+        iyy="0.010857324827174"
+        iyz="1.84973732356237E-06"
+        izz="0.0115954323258876" />
     </inertial>
     <visual>
       <origin
@@ -626,12 +626,12 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/LeftARM1.stl" />
+          filename="package://ia_robot/meshes/LeftARM1.STL" />
       </geometry>
       <material
         name="">
         <color
-          rgba="0.75294 0.75294 0.75294 1" />
+          rgba="0.752941176470588 0.752941176470588 0.752941176470588 1" />
       </material>
     </visual>
     <collision>
@@ -640,7 +640,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/LeftARM1.stl" />
+          filename="package://ia_robot/meshes/LeftARM1.STL" />
       </geometry>
     </collision>
   </link>
@@ -664,16 +664,16 @@
     name="LeftARM02">
     <inertial>
       <origin
-        xyz="0.0071525 -8.1527E-05 0.13771"
+        xyz="0.0071369 -0.00047892 0.13771"
         rpy="0 0 0" />
       <mass
-        value="2.5" />
+        value="0.27589" />
       <inertia
         ixx="0.00035994"
-        ixy="-1.7309E-08"
-        ixz="-2.8614E-05"
-        iyy="0.00035842"
-        iyz="3.2624E-07"
+        ixy="-1.0176E-07"
+        ixz="-2.8551E-05"
+        iyy="0.00035843"
+        iyz="1.916E-06"
         izz="0.00019777" />
     </inertial>
     <visual>
@@ -682,7 +682,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/LeftARM02.stl" />
+          filename="package://ia_robot/meshes/LeftARM02.STL" />
       </geometry>
       <material
         name="">
@@ -696,7 +696,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/LeftARM02.stl" />
+          filename="package://ia_robot/meshes/LeftARM02.STL" />
       </geometry>
     </collision>
   </link>
@@ -704,8 +704,8 @@
     name="LeftARMJoint02"
     type="continuous">
     <origin
-      xyz="0.11738 0.046728 0.073"
-      rpy="2.7627 -1.5708 0" />
+      xyz="0.12634 -0.0001172 0.073"
+      rpy="3.1407 -1.5708 3.1416" />
     <parent
       link="LeftARM1" />
     <child
@@ -720,16 +720,16 @@
     name="LeftARM03">
     <inertial>
       <origin
-        xyz="-0.33795 0.032613 -0.037558"
+        xyz="-0.33877 0.022556 -0.037558"
         rpy="0 0 0" />
       <mass
-        value="2" />
+        value="0.47985" />
       <inertia
-        ixx="0.00041223"
-        ixy="0.00025852"
-        ixz="-4.0981E-05"
-        iyy="0.0031677"
-        iyz="3.8985E-06"
+        ixx="0.00039931"
+        ixy="0.00017623"
+        ixz="-4.1078E-05"
+        iyy="0.0031806"
+        iyz="2.679E-06"
         izz="0.0031962" />
     </inertial>
     <visual>
@@ -738,7 +738,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/LeftARM03.stl" />
+          filename="package://ia_robot/meshes/LeftARM03.STL" />
       </geometry>
       <material
         name="">
@@ -752,16 +752,16 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/LeftARM03.stl" />
+          filename="package://ia_robot/meshes/LeftARM03.STL" />
       </geometry>
     </collision>
   </link>
   <joint
     name="LeftARMJoint03"
-    type="revolute">
+    type="continuous">
     <origin
-      xyz="0.059196 -0.00067202 0.28311"
-      rpy="-1.5708 1.192 -1.5822" />
+      xyz="0.059067 -0.003961 0.28311"
+      rpy="1.5708 1.5699 1.5038" />
     <parent
       link="LeftARM02" />
     <child
@@ -778,16 +778,16 @@
     name="LeftEnd">
     <inertial>
       <origin
-        xyz="-0.11894 0.0075036 -0.029023"
+        xyz="-0.11892 0.0078495 -0.029023"
         rpy="0 0 0" />
       <mass
         value="0.5725" />
       <inertia
-        ixx="0.00048845"
-        ixy="0.00010454"
-        ixz="-0.00011106"
-        iyy="0.0021389"
-        iyz="7.0066E-06"
+        ixx="0.00048907"
+        ixy="0.00010933"
+        ixz="-0.00011104"
+        iyy="0.0021383"
+        iyz="7.3296E-06"
         izz="0.0021312" />
     </inertial>
     <visual>
@@ -796,7 +796,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/LeftEnd.stl" />
+          filename="package://ia_robot/meshes/LeftEnd.STL" />
       </geometry>
       <material
         name="">
@@ -810,16 +810,16 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/LeftEnd.stl" />
+          filename="package://ia_robot/meshes/LeftEnd.STL" />
       </geometry>
     </collision>
   </link>
   <joint
     name="LeftEndJoint"
-    type="revolute">
+    type="continuous">
     <origin
-      xyz="-0.65936 0.10584 -0.049114"
-      rpy="-1.7017 -0.014293 -0.076285" />
+      xyz="-0.66222 0.086205 -0.049114"
+      rpy="-1.7017 -0.0062132 -0.047629" />
     <parent
       link="LeftARM03" />
     <child
@@ -836,16 +836,16 @@
     name="RightARM1">
     <inertial>
       <origin
-        xyz="0.079625 -0.031698 0.02246"
+        xyz="0.085703 7.9506E-05 0.02246"
         rpy="0 0 0" />
       <mass
         value="1.822" />
       <inertia
-        ixx="0.0057796"
-        ixy="0.0020214"
-        ixz="-0.0018525"
-        iyy="0.010053"
-        iyz="0.00073747"
+        ixx="0.0049749"
+        ixy="-5.4571E-06"
+        ixz="-0.0019939"
+        iyy="0.010857"
+        iyz="-1.8497E-06"
         izz="0.011595" />
     </inertial>
     <visual>
@@ -854,7 +854,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/RightARM1.stl" />
+          filename="package://ia_robot/meshes/RightARM1.STL" />
       </geometry>
       <material
         name="">
@@ -868,7 +868,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/RightARM1.stl" />
+          filename="package://ia_robot/meshes/RightARM1.STL" />
       </geometry>
     </collision>
   </link>
@@ -892,16 +892,16 @@
     name="RihgtARM2">
     <inertial>
       <origin
-        xyz="0.00032125 0.0071457 0.13771"
+        xyz="0.0070917 -0.00093374 0.13771"
         rpy="0 0 0" />
       <mass
-        value="2.5" />
+        value="0.27589" />
       <inertia
-        ixx="0.00035842"
-        ixy="6.8313E-08"
-        ixz="-1.2853E-06"
-        iyy="0.00035994"
-        iyz="-2.8587E-05"
+        ixx="0.00035992"
+        ixy="-1.9718E-07"
+        ixz="-2.8371E-05"
+        iyy="0.00035845"
+        iyz="3.7355E-06"
         izz="0.00019777" />
     </inertial>
     <visual>
@@ -910,7 +910,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/RihgtARM2.stl" />
+          filename="package://ia_robot/meshes/RihgtARM2.STL" />
       </geometry>
       <material
         name="">
@@ -924,7 +924,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/RihgtARM2.stl" />
+          filename="package://ia_robot/meshes/RihgtARM2.STL" />
       </geometry>
     </collision>
   </link>
@@ -932,8 +932,8 @@
     name="RihgtARMJoint2"
     type="continuous">
     <origin
-      xyz="0.11738 -0.046728 0.073"
-      rpy="-1.5708 0 1.1919" />
+      xyz="0.126339132538937 0.000117203456298176 0.0729999999999077"
+      rpy="1.5707963267949 0 -1.56986863780086" />
     <parent
       link="RightARM1" />
     <child
@@ -948,16 +948,16 @@
     name="RightARM3">
     <inertial>
       <origin
-        xyz="-0.33808 -0.031296 0.037558"
+        xyz="-0.33947 -0.006255 0.037558"
         rpy="0 0 0" />
       <mass
-        value="2" />
+        value="0.47985" />
       <inertia
-        ixx="0.00041026"
-        ixy="-0.00024778"
-        ixz="4.0996E-05"
-        iyy="0.0031697"
-        iyz="3.7388E-06"
+        ixx="0.00038882"
+        ixy="-4.1952E-05"
+        ixz="4.116E-05"
+        iyy="0.0031911"
+        iyz="7.025E-07"
         izz="0.0031962" />
     </inertial>
     <visual>
@@ -966,7 +966,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/RightARM3.stl" />
+          filename="package://ia_robot/meshes/RightARM3.STL" />
       </geometry>
       <material
         name="">
@@ -980,16 +980,16 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/RightARM3.stl" />
+          filename="package://ia_robot/meshes/RightARM3.STL" />
       </geometry>
     </collision>
   </link>
   <joint
     name="RightARMJoint3"
-    type="revolute">
+    type="continuous">
     <origin
-      xyz="0.002656 0.05914 0.28311"
-      rpy="1.5708 1.1923 -0.04493" />
+      xyz="0.058694 -0.0077252 0.28311"
+      rpy="-1.5708 1.5707 1.4399" />
     <parent
       link="RihgtARM2" />
     <child
@@ -1006,16 +1006,16 @@
     name="RightEnd">
     <inertial>
       <origin
-        xyz="-0.11892 0.0077709 -0.029023"
+        xyz="0.0021964 -0.11916 -0.029023"
         rpy="0 0 0" />
       <mass
         value="0.5725" />
       <inertia
-        ixx="0.00048893"
-        ixy="0.00010824"
-        ixz="-0.00011105"
-        iyy="0.0021384"
-        iyz="7.2562E-06"
+        ixx="0.0021449"
+        ixy="3.0654E-05"
+        ixz="2.0508E-06"
+        iyy="0.00048242"
+        iyz="-0.00011126"
         izz="0.0021312" />
     </inertial>
     <visual>
@@ -1024,7 +1024,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/RightEnd.stl" />
+          filename="package://ia_robot/meshes/RightEnd.STL" />
       </geometry>
       <material
         name="">
@@ -1038,16 +1038,16 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://ia_robot/meshes/RightEnd.stl" />
+          filename="package://ia_robot/meshes/RightEnd.STL" />
       </geometry>
     </collision>
   </link>
   <joint
     name="RightEndJOINT"
-    type="revolute">
+    type="continuous">
     <origin
-      xyz="-0.65977 -0.10327 0.049114"
-      rpy="1.4399 0.026 0.070847" />
+      xyz="-0.66559 -0.054292 0.049114"
+      rpy="1.4399 0.00095434 0.00026273" />
     <parent
       link="RightARM3" />
     <child
