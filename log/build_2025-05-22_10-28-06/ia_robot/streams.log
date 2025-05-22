@@ -1,0 +1,82 @@
+[0.006s] Invoking command in '/home/oliver/ros2_ws/src/ia_robot/build/ia_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/oliver/ros2_ws/src/ia_robot -DCMAKE_INSTALL_PREFIX=/home/oliver/ros2_ws/src/ia_robot/install/ia_robot
+[0.082s] -- The C compiler identification is GNU 11.4.0
+[0.148s] -- The CXX compiler identification is GNU 11.4.0
+[0.154s] -- Detecting C compiler ABI info
+[0.284s] -- Detecting C compiler ABI info - done
+[0.290s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.290s] -- Detecting C compile features
+[0.290s] -- Detecting C compile features - done
+[0.294s] -- Detecting CXX compiler ABI info
+[0.398s] -- Detecting CXX compiler ABI info - done
+[0.401s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.401s] -- Detecting CXX compile features
+[0.401s] -- Detecting CXX compile features - done
+[0.403s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.527s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.594s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.654s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.654s] -- Configured cppcheck include dirs: 
+[0.654s] -- Configured cppcheck exclude dirs and/or files: 
+[0.655s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.656s] -- Added test 'lint_cmake' to check CMake code style
+[0.657s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.661s] -- Added test 'uncrustify' to check C / C++ code style
+[0.661s] -- Configured uncrustify additional arguments: 
+[0.661s] -- Added test 'xmllint' to check XML markup files
+[0.662s] -- Configuring done
+[0.663s] -- Generating done
+[0.664s] -- Build files have been written to: /home/oliver/ros2_ws/src/ia_robot/build/ia_robot
+[0.666s] Invoked command in '/home/oliver/ros2_ws/src/ia_robot/build/ia_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/oliver/ros2_ws/src/ia_robot -DCMAKE_INSTALL_PREFIX=/home/oliver/ros2_ws/src/ia_robot/install/ia_robot
+[0.668s] Invoking command in '/home/oliver/ros2_ws/src/ia_robot/build/ia_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/oliver/ros2_ws/src/ia_robot/build/ia_robot -- -j32 -l32
+[0.710s] Invoked command in '/home/oliver/ros2_ws/src/ia_robot/build/ia_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/oliver/ros2_ws/src/ia_robot/build/ia_robot -- -j32 -l32
+[0.715s] Invoking command in '/home/oliver/ros2_ws/src/ia_robot/build/ia_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/oliver/ros2_ws/src/ia_robot/build/ia_robot
+[0.721s] -- Install configuration: ""
+[0.722s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/urdf
+[0.722s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/urdf/two_part_robot.urdf
+[0.722s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/urdf/ia_robot.urdf
+[0.722s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/urdf/base_only.urdf
+[0.722s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/urdf/ia_robot.csv
+[0.723s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes
+[0.723s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/RightEnd.STL
+[0.723s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/leftbackorient.STL
+[0.723s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/base_link.STL
+[0.742s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/RightFrontWheelOrient2.STL
+[0.742s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/LeftFrontwheel.STL
+[0.742s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/LeftFrontWheelOrient2.STL
+[0.743s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/RightARM1.STL
+[0.744s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/RightFrontWheelOrient1.STL
+[0.744s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/leftbackwheel.STL
+[0.744s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/RihgtARM2.STL
+[0.745s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/Rightbackorient.STL
+[0.745s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/LeftARM02.STL
+[0.746s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/LeftFrontWheelOrient1.STL
+[0.746s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/RightARM3.STL
+[0.747s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/LeftEnd.STL
+[0.747s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/RightFrontWheelOrient01.STL
+[0.747s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/LeftARM03.STL
+[0.751s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/Rightbackwheel.STL
+[0.752s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/meshes/LeftARM1.STL
+[0.755s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/launch
+[0.755s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/launch/view_robot.launch.py
+[0.755s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/launch/view_ia_robot.launch.py
+[0.755s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/launch/view_all_joints.launch.py
+[0.755s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/config
+[0.756s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/config/joint_names_ia-robot.yaml
+[0.756s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/rviz
+[0.756s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/rviz/view.rviz
+[0.756s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ament_index/resource_index/package_run_dependencies/ia_robot
+[0.756s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ament_index/resource_index/parent_prefix_path/ia_robot
+[0.756s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/environment/ament_prefix_path.sh
+[0.756s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/environment/ament_prefix_path.dsv
+[0.757s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/environment/path.sh
+[0.757s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/environment/path.dsv
+[0.757s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/local_setup.bash
+[0.757s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/local_setup.sh
+[0.757s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/local_setup.zsh
+[0.757s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/local_setup.dsv
+[0.757s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/package.dsv
+[0.757s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ament_index/resource_index/packages/ia_robot
+[0.757s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/cmake/ia_robotConfig.cmake
+[0.757s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/cmake/ia_robotConfig-version.cmake
+[0.757s] -- Installing: /home/oliver/ros2_ws/src/ia_robot/install/ia_robot/share/ia_robot/package.xml
+[0.759s] Invoked command in '/home/oliver/ros2_ws/src/ia_robot/build/ia_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/oliver/ros2_ws/src/ia_robot/build/ia_robot
