@@ -1,9 +1,0 @@
-/home/oliver/ros2_ws/src/ia_robot/build/ia_robot/CMakeFiles/uninstall.dir
-/home/oliver/ros2_ws/src/ia_robot/build/ia_robot/CMakeFiles/ia_robot_uninstall.dir
-/home/oliver/ros2_ws/src/ia_robot/build/ia_robot/CMakeFiles/test.dir
-/home/oliver/ros2_ws/src/ia_robot/build/ia_robot/CMakeFiles/edit_cache.dir
-/home/oliver/ros2_ws/src/ia_robot/build/ia_robot/CMakeFiles/rebuild_cache.dir
-/home/oliver/ros2_ws/src/ia_robot/build/ia_robot/CMakeFiles/list_install_components.dir
-/home/oliver/ros2_ws/src/ia_robot/build/ia_robot/CMakeFiles/install.dir
-/home/oliver/ros2_ws/src/ia_robot/build/ia_robot/CMakeFiles/install/local.dir
-/home/oliver/ros2_ws/src/ia_robot/build/ia_robot/CMakeFiles/install/strip.dir

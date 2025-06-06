@@ -12,7 +12,7 @@ def generate_launch_description():
     pkg_share = get_package_share_directory('ia_robot')
 
     # URDF file path
-    default_urdf = os.path.join(pkg_share, 'urdf', 'ia_robot.urdf')
+    default_urdf = os.path.join(pkg_share, 'urdf', 'ia_robot_new.urdf')
     urdf_arg = DeclareLaunchArgument(
         'urdf_file', default_value=default_urdf,
         description='Full path to URDF file'
@@ -24,7 +24,7 @@ def generate_launch_description():
         robot_description_content = inf.read()
 
     # RViz config (optional)
-    rviz_config = os.path.join(pkg_share, 'rviz', 'view_all_joints.rviz')
+    rviz_config = os.path.join(pkg_share, 'rviz', 'view.rviz')
 
     return LaunchDescription([
         urdf_arg,
